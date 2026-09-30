@@ -1,0 +1,4 @@
+#@title Escritura del .gitignore
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

@@ -1,0 +1,3 @@
+#@title Escritura del requirements.txt
+# Book Manager - Sprint 1
+# El proyecto utiliza exclusivamente la biblioteca estándar de Python (>= 3.10).
