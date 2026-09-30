@@ -2,6 +2,23 @@
 
 Registro de cambios del proyecto. Lo más reciente se encuentra arriba.
 
+[Ejercicio 03]
+- Creación de `repositories.py` con las interfaces de la cátedra
+  (`IRepositorio[T]`, `IRepositorioStock`, `IRepositorioCotizacionDolar`)
+  sin cambios en sus firmas.
+- Clase `ArchivoJson` para leer y escribir listas de registros en JSON,
+  reutilizada por composición en todos los repositorios.
+- `RepositorioJsonBase` genérico con CRUD completo y `siguiente_id()`; cada
+  subclase implementa `_a_dict` y `_desde_dict` (Template Method).
+- Repositorios de `Genero`, `Editorial`, `Moneda`, `TipoCotizacion`, `Libro`
+  y `Precio`.
+- `RepositorioStock` y `RepositorioCotizacionDolar` con claves `libro_id` y
+  (`tipo_id`, `fecha`), más `leer_todos()` para los listados.
+- Relaciones persistidas como ids y rehidratadas como objetos mediante
+  repositorios inyectados por constructor.
+- Celda de prueba del CRUD en una carpeta temporal que se limpia en cada
+  ejecución.
+
 [Ejercicio 02]
 - Creación de `entities.py` con la clase abstracta `EntidadBase` (id de solo
   lectura, igualdad y hash por clase e id, `__str__` abstracto).
