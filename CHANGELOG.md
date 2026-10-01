@@ -2,6 +2,18 @@
 
 Registro de cambios del proyecto. Lo más reciente se encuentra arriba.
 
+[Ejercicio 07]
+- Creación de `main.py` con `ServiciosBookManager`, raíz de composición que
+  arma los repositorios y servicios sobre la carpeta de datos y crea el
+  cargador de datos iniciales y la consola.
+- Función `main(import_default_data)`: con True limpia `data/` y recarga
+  desde los CSV; con False usa los datos persistidos.
+- Parámetros opcionales de carpeta de datos, carpeta de CSV y función de
+  entrada, para probar sin modificar `data/`.
+- Mensaje controlado si falla la importación de un CSV.
+- Celda de prueba con importación, persistencia entre ejecuciones y lectura
+  de `data/`, verificando que sus archivos no cambian.
+
 [Ejercicio 06]
 - Creación de `console.py` con la clase `ConsolaBookManager`, que recibe los
   servicios por constructor y solo se comunica con la capa de servicios.
