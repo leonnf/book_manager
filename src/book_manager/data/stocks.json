@@ -1,0 +1,77 @@
+[
+  {
+    "libro_id": 1,
+    "cantidad": 8,
+    "stock_minimo": 3
+  },
+  {
+    "libro_id": 2,
+    "cantidad": 12,
+    "stock_minimo": 5
+  },
+  {
+    "libro_id": 3,
+    "cantidad": 1,
+    "stock_minimo": 4
+  },
+  {
+    "libro_id": 4,
+    "cantidad": 2,
+    "stock_minimo": 3
+  },
+  {
+    "libro_id": 5,
+    "cantidad": 6,
+    "stock_minimo": 3
+  },
+  {
+    "libro_id": 6,
+    "cantidad": 10,
+    "stock_minimo": 5
+  },
+  {
+    "libro_id": 7,
+    "cantidad": 5,
+    "stock_minimo": 2
+  },
+  {
+    "libro_id": 8,
+    "cantidad": 7,
+    "stock_minimo": 3
+  },
+  {
+    "libro_id": 9,
+    "cantidad": 4,
+    "stock_minimo": 3
+  },
+  {
+    "libro_id": 10,
+    "cantidad": 3,
+    "stock_minimo": 2
+  },
+  {
+    "libro_id": 11,
+    "cantidad": 5,
+    "stock_minimo": 2
+  },
+  {
+    "libro_id": 12,
+    "cantidad": 2,
+    "stock_minimo": 3
+  },
+  {
+    "libro_id": 13,
+    "cantidad": 9,
+    "stock_minimo": 4
+  },
+  {
+    "libro_id": 14,
+    "cantidad": 0,
+    "stock_minimo": 3
+  },
+  {
+    "libro_id": 15,
+    "cantidad": 15,
+    "stock_minimo": 5
+  }
+]

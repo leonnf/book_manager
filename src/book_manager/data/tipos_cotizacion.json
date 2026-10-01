@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "nombre": "Oficial",
+    "descripcion": "Cotización minorista del Banco Nación."
+  },
+  {
+    "id": 2,
+    "nombre": "Blue",
+    "descripcion": "Cotización del mercado informal."
+  },
+  {
+    "id": 3,
+    "nombre": "MEP",
+    "descripcion": "Dólar Bolsa, operado con bonos en pesos y en dólares."
+  },
+  {
+    "id": 4,
+    "nombre": "CCL",
+    "descripcion": "Contado con liquidación, operado con títulos para girar al exterior."
+  },
+  {
+    "id": 5,
+    "nombre": "Mayorista",
+    "descripcion": "Cotización del mercado de cambios entre entidades financieras."
+  },
+  {
+    "id": 6,
+    "nombre": "Tarjeta",
+    "descripcion": "Dólar oficial con impuestos para consumos en el exterior."
+  },
+  {
+    "id": 7,
+    "nombre": "Cripto",
+    "descripcion": "Cotización implícita en operaciones con monedas estables."
+  },
+  {
+    "id": 8,
+    "nombre": "Ahorro",
+    "descripcion": "Dólar oficial con impuestos para atesoramiento (histórico)."
+  },
+  {
+    "id": 9,
+    "nombre": "Turista",
+    "descripcion": "Dólar para gastos de turismo en el exterior (histórico)."
+  },
+  {
+    "id": 10,
+    "nombre": "Lujo",
+    "descripcion": "Dólar para consumos suntuarios en el exterior (histórico)."
+  }
+]

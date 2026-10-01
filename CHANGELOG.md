@@ -2,6 +2,21 @@
 
 Registro de cambios del proyecto. Lo más reciente se encuentra arriba.
 
+[Ejercicio 05]
+- CSV de migración en `migrations/csv` para las 8 entidades, con al menos 10
+  registros cada uno y relaciones por clave natural (nombre, código o ISBN).
+- Datos de géneros, editoriales, libros y precios tomados de Cúspide
+  (relevamiento del 28/09/2026), con correcciones de autores y editoriales.
+- Precios anteriores de agosto y un libro con precio solo en USD para mostrar
+  el precio vigente y la conversión de moneda.
+- Cotizaciones ilustrativas de Oficial, Blue y MEP del 21 al 25/09/2026.
+- Creación de `preload_data.py` con `limpiar_datos` y
+  `CargadorDatosIniciales`, que carga los CSV a través de los servicios en
+  orden de dependencias e informa archivo y línea ante un error.
+- Carga inicial de los JSON de `data/`, versionados para que
+  `main(import_default_data=False)` funcione después de clonar.
+- README.md con la sección "Datos iniciales".
+
 [Ejercicio 04]
 - Creación de `services.py` con la clase abstracta genérica
   `ServicioEntidad[T]` (listar, obtener y eliminar con hook abstracto

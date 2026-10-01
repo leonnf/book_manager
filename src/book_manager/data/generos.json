@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "nombre": "Ficción moderna y contemporánea",
+    "descripcion": "Obras narrativas, novelas y relatos literarios del siglo XX y XXI."
+  },
+  {
+    "id": 2,
+    "nombre": "Policiales y de misterio",
+    "descripcion": "Relatos centrados en crímenes, investigación, detectives y suspenso."
+  },
+  {
+    "id": 3,
+    "nombre": "Estudios de comunicación",
+    "descripcion": "Ensayos y obras académicas sobre medios, periodismo e investigación social."
+  },
+  {
+    "id": 4,
+    "nombre": "Memorias",
+    "descripcion": "Textos autobiográficos, diarios y vivencias personales de autores."
+  },
+  {
+    "id": 5,
+    "nombre": "Ficción contemporánea infantil",
+    "descripcion": "Narrativa, cuentos y novelas dirigidos a lectores infantiles y preadolescentes."
+  },
+  {
+    "id": 6,
+    "nombre": "Literatura juvenil",
+    "descripcion": "Novelas orientadas al público Young Adult (YA), romance, fantasía y drama juvenil."
+  },
+  {
+    "id": 7,
+    "nombre": "Psicología",
+    "descripcion": "Obras sobre desarrollo de la mente, psicoanálisis, terapia y conducta humana."
+  },
+  {
+    "id": 8,
+    "nombre": "Autoayuda y superación",
+    "descripcion": "Libros orientados al crecimiento personal, bienestar emocional y hábitos."
+  },
+  {
+    "id": 9,
+    "nombre": "Historia argentina",
+    "descripcion": "Ensayos, investigaciones y crónicas sobre el pasado político y social de Argentina."
+  },
+  {
+    "id": 10,
+    "nombre": "Ciencia ficción y fantasía",
+    "descripcion": "Narrativas especulativas, mundos imaginarios, tecnología futura y magia."
+  },
+  {
+    "id": 11,
+    "nombre": "Gastronomía y cocina",
+    "descripcion": "Libros de recetas, técnicas culinarias y enología."
+  },
+  {
+    "id": 12,
+    "nombre": "Biografías",
+    "descripcion": "Narraciones documentadas sobre la vida de personalidades históricas o públicas."
+  }
+]

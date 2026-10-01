@@ -1,0 +1,121 @@
+[
+  {
+    "id": 1,
+    "libro_id": 1,
+    "moneda_id": 1,
+    "monto": 45999.0,
+    "fecha_vigencia": "2026-08-01"
+  },
+  {
+    "id": 2,
+    "libro_id": 1,
+    "moneda_id": 1,
+    "monto": 48899.0,
+    "fecha_vigencia": "2026-09-28"
+  },
+  {
+    "id": 3,
+    "libro_id": 2,
+    "moneda_id": 1,
+    "monto": 45999.0,
+    "fecha_vigencia": "2026-09-28"
+  },
+  {
+    "id": 4,
+    "libro_id": 3,
+    "moneda_id": 1,
+    "monto": 52900.0,
+    "fecha_vigencia": "2026-09-28"
+  },
+  {
+    "id": 5,
+    "libro_id": 4,
+    "moneda_id": 1,
+    "monto": 28900.0,
+    "fecha_vigencia": "2026-09-28"
+  },
+  {
+    "id": 6,
+    "libro_id": 5,
+    "moneda_id": 1,
+    "monto": 35499.0,
+    "fecha_vigencia": "2026-09-28"
+  },
+  {
+    "id": 7,
+    "libro_id": 6,
+    "moneda_id": 1,
+    "monto": 47999.0,
+    "fecha_vigencia": "2026-09-28"
+  },
+  {
+    "id": 8,
+    "libro_id": 7,
+    "moneda_id": 1,
+    "monto": 31999.0,
+    "fecha_vigencia": "2026-09-28"
+  },
+  {
+    "id": 9,
+    "libro_id": 8,
+    "moneda_id": 1,
+    "monto": 41999.0,
+    "fecha_vigencia": "2026-09-28"
+  },
+  {
+    "id": 10,
+    "libro_id": 9,
+    "moneda_id": 1,
+    "monto": 41999.0,
+    "fecha_vigencia": "2026-09-28"
+  },
+  {
+    "id": 11,
+    "libro_id": 10,
+    "moneda_id": 1,
+    "monto": 41999.0,
+    "fecha_vigencia": "2026-08-01"
+  },
+  {
+    "id": 12,
+    "libro_id": 10,
+    "moneda_id": 1,
+    "monto": 43999.0,
+    "fecha_vigencia": "2026-09-28"
+  },
+  {
+    "id": 13,
+    "libro_id": 11,
+    "moneda_id": 1,
+    "monto": 32999.0,
+    "fecha_vigencia": "2026-09-28"
+  },
+  {
+    "id": 14,
+    "libro_id": 12,
+    "moneda_id": 1,
+    "monto": 36500.0,
+    "fecha_vigencia": "2026-09-28"
+  },
+  {
+    "id": 15,
+    "libro_id": 13,
+    "moneda_id": 1,
+    "monto": 38999.0,
+    "fecha_vigencia": "2026-09-28"
+  },
+  {
+    "id": 16,
+    "libro_id": 14,
+    "moneda_id": 2,
+    "monto": 38.5,
+    "fecha_vigencia": "2026-09-28"
+  },
+  {
+    "id": 17,
+    "libro_id": 15,
+    "moneda_id": 1,
+    "monto": 22900.0,
+    "fecha_vigencia": "2026-09-28"
+  }
+]

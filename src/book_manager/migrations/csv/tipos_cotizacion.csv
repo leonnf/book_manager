@@ -1,0 +1,11 @@
+nombre,descripcion
+"Oficial","Cotización minorista del Banco Nación."
+"Blue","Cotización del mercado informal."
+"MEP","Dólar Bolsa, operado con bonos en pesos y en dólares."
+"CCL","Contado con liquidación, operado con títulos para girar al exterior."
+"Mayorista","Cotización del mercado de cambios entre entidades financieras."
+"Tarjeta","Dólar oficial con impuestos para consumos en el exterior."
+"Cripto","Cotización implícita en operaciones con monedas estables."
+"Ahorro","Dólar oficial con impuestos para atesoramiento (histórico)."
+"Turista","Dólar para gastos de turismo en el exterior (histórico)."
+"Lujo","Dólar para consumos suntuarios en el exterior (histórico)."

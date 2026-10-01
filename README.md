@@ -52,6 +52,51 @@ entidad y persistencia en archivos. Se toma como referencia el sitio de
   se persisten en archivos JSON dentro de `data/`.
 - Solo se utiliza la biblioteca estándar de Python.
 
+## Datos iniciales
+
+### Origen
+
+Los géneros, las editoriales, los libros (título, autor, ISBN, editorial,
+género, año y URL) y los precios en pesos provienen de una muestra del sitio
+de [Cúspide](https://www.cuspide.com/), relevada el **28/09/2026**. Los
+precios en ARS se registran vigentes desde esa fecha.
+
+### Correcciones aplicadas a la muestra
+
+- Autor de *Sempiterno*: `JOANA, MARCÚS` se corrigió a `MARCÚS, JOANA`, igual
+  que en *Antes de diciembre*.
+- Autor de *Blanco*: `BRET EASTON ELLIS` se corrigió a `ELLIS, BRET EASTON`
+  (formato `APELLIDO, NOMBRE`).
+- Editorial: `PLAZA & JANES` se unificó como `PLAZA & JANÉS`.
+- Stock: el valor `99999` de Cúspide es un marcador de disponibilidad online;
+  se reemplazó por cantidades realistas para una librería física.
+
+### Datos complementarios
+
+- **Monedas**: 10 monedas con su código ISO 4217.
+- **Tipos de cotización**: 10 tipos. Ahorro, Turista y Lujo existieron
+  históricamente y se incluyen para completar el mínimo de registros.
+- **Precios**: *Binding 13* (edición española importada) tiene precio solo en
+  USD, para mostrar la conversión con la cotización del dólar. *La noche de la
+  usina* y *Ser feliz era esto* tienen además un precio anterior (agosto de
+  2026), para mostrar que se toma el precio vigente más reciente.
+- **Páginas y emails de contacto**: quedan vacíos porque la muestra no los
+  incluye.
+
+### Cotizaciones ilustrativas
+
+Las cotizaciones del dólar (Oficial, Blue y MEP, del 21 al 25/09/2026) son
+**valores ilustrativos, no oficiales**. La consulta de cotizaciones en tiempo
+real queda fuera del alcance del Sprint 1.
+
+### Carga
+
+Los CSV de `migrations/csv` se cargan con `preload_data.py` a través de los
+servicios, así cumplen las mismas reglas de negocio que un alta manual. El
+resultado queda en los JSON de `data/`, que se versionan en el repositorio.
+Con `main(import_default_data=True)` los datos se limpian y se recargan desde
+los CSV.
+
 ## Estructura del proyecto
 
 ```

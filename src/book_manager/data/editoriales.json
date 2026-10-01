@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "nombre": "ALFAGUARA",
+    "pais_origen": "España",
+    "email_contacto": null
+  },
+  {
+    "id": 2,
+    "nombre": "PLANETA",
+    "pais_origen": "España",
+    "email_contacto": null
+  },
+  {
+    "id": 3,
+    "nombre": "SUDAMERICANA",
+    "pais_origen": "Argentina",
+    "email_contacto": null
+  },
+  {
+    "id": 4,
+    "nombre": "SUMA DE LETRAS",
+    "pais_origen": "España",
+    "email_contacto": null
+  },
+  {
+    "id": 5,
+    "nombre": "CHAI EDITORA",
+    "pais_origen": "Argentina",
+    "email_contacto": null
+  },
+  {
+    "id": 6,
+    "nombre": "MONTENA",
+    "pais_origen": "España",
+    "email_contacto": null
+  },
+  {
+    "id": 7,
+    "nombre": "PLAZA & JANÉS",
+    "pais_origen": "España",
+    "email_contacto": null
+  },
+  {
+    "id": 8,
+    "nombre": "DEBOLSILLO",
+    "pais_origen": "España",
+    "email_contacto": null
+  },
+  {
+    "id": 9,
+    "nombre": "EMECÉ",
+    "pais_origen": "Argentina",
+    "email_contacto": null
+  },
+  {
+    "id": 10,
+    "nombre": "HERDER",
+    "pais_origen": "España",
+    "email_contacto": null
+  },
+  {
+    "id": 11,
+    "nombre": "SIGLO XXI EDITORES",
+    "pais_origen": "México",
+    "email_contacto": null
+  },
+  {
+    "id": 12,
+    "nombre": "VR EDITORAS",
+    "pais_origen": "Argentina",
+    "email_contacto": null
+  }
+]

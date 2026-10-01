@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "codigo": "ARS",
+    "nombre": "Peso argentino",
+    "simbolo": "$"
+  },
+  {
+    "id": 2,
+    "codigo": "USD",
+    "nombre": "Dólar estadounidense",
+    "simbolo": "U$s"
+  },
+  {
+    "id": 3,
+    "codigo": "EUR",
+    "nombre": "Euro",
+    "simbolo": "€"
+  },
+  {
+    "id": 4,
+    "codigo": "BRL",
+    "nombre": "Real brasileño",
+    "simbolo": "R$"
+  },
+  {
+    "id": 5,
+    "codigo": "UYU",
+    "nombre": "Peso uruguayo",
+    "simbolo": "$U"
+  },
+  {
+    "id": 6,
+    "codigo": "CLP",
+    "nombre": "Peso chileno",
+    "simbolo": "CLP$"
+  },
+  {
+    "id": 7,
+    "codigo": "GBP",
+    "nombre": "Libra esterlina",
+    "simbolo": "£"
+  },
+  {
+    "id": 8,
+    "codigo": "JPY",
+    "nombre": "Yen japonés",
+    "simbolo": "¥"
+  },
+  {
+    "id": 9,
+    "codigo": "CNY",
+    "nombre": "Yuan chino",
+    "simbolo": "CN¥"
+  },
+  {
+    "id": 10,
+    "codigo": "MXN",
+    "nombre": "Peso mexicano",
+    "simbolo": "MX$"
+  }
+]
