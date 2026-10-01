@@ -97,6 +97,30 @@ resultado queda en los JSON de `data/`, que se versionan en el repositorio.
 Con `main(import_default_data=True)` los datos se limpian y se recargan desde
 los CSV.
 
+## Cómo ejecutar
+
+Requisitos: Python 3.10 o superior. No hace falta instalar dependencias:
+el proyecto usa solo la biblioteca estándar.
+
+```bash
+git clone https://github.com/leonnf/book_manager.git
+cd book_manager
+git checkout Sprint_1
+cd src
+python -m book_manager.main
+```
+
+- `python -m book_manager.main` abre la consola con los datos de `data/`.
+- Para recargar los datos iniciales desde los CSV:
+
+```bash
+  python -c "from book_manager.main import main; main(import_default_data=True)"
+```
+
+- Las operaciones de la consola modifican los JSON de `data/`. Para volver al
+  estado del repositorio: `git checkout -- book_manager/data`.
+
+
 ## Estructura del proyecto
 
 ```
