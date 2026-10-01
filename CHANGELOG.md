@@ -2,6 +2,24 @@
 
 Registro de cambios del proyecto. Lo más reciente se encuentra arriba.
 
+[Ejercicio 06]
+- Creación de `console.py` con la clase `ConsolaBookManager`, que recibe los
+  servicios por constructor y solo se comunica con la capa de servicios.
+- Menú principal en el orden de entidades del enunciado (Libros primero) y
+  submenú por entidad con Listar, Ver detalle, Alta, Modificación y Baja.
+- Agregados: cotización de libros en ARS y USD, ingreso y egreso de stock, y
+  menú de reportes (inventario valorizado, stock bajo el mínimo e histórico
+  de cotizaciones con variación).
+- Ingreso de datos con validación de formato, coma o punto decimal, fechas
+  DD/MM/AAAA, valores actuales que se conservan con Enter y confirmación de
+  bajas mostrando la entidad antes de preguntar.
+- Errores de negocio mostrados como mensaje sin cortar el programa; cierre
+  controlado ante fin de la entrada o interrupción.
+- Menús resueltos con despacho por diccionario y acciones genéricas para
+  entidades con id; métodos internos con un guion bajo (PEP 8).
+- Función de entrada inyectable, usada en una prueba con respuestas
+  simuladas sobre una carpeta temporal que no modifica `data/`.
+
 [Ejercicio 05]
 - CSV de migración en `migrations/csv` para las 8 entidades, con al menos 10
   registros cada uno y relaciones por clave natural (nombre, código o ISBN).
