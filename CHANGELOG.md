@@ -2,6 +2,26 @@
 
 Registro de cambios del proyecto. Lo más reciente se encuentra arriba.
 
+[Ejercicio 04]
+- Creación de `services.py` con la clase abstracta genérica
+  `ServicioEntidad[T]` (listar, obtener y eliminar con hook abstracto
+  `_validar_eliminacion`).
+- Servicios de `Genero`, `Editorial`, `Moneda`, `TipoCotizacion`, `Libro`,
+  `Precio`, `Stock` y `CotizacionDolar` con CRUD completo a partir de datos
+  simples.
+- Reglas de unicidad: nombre de género, editorial y tipo; código de moneda;
+  ISBN; precio por libro, moneda y fecha; cotización por tipo y fecha.
+- Integridad referencial: no se eliminan géneros ni editoriales con libros,
+  libros con precios o stock, monedas con precios ni tipos con cotizaciones.
+- Movimientos de stock (ingreso y egreso) sin permitir stock negativo ni
+  movimientos sobre libros sin stock registrado.
+- Conversión de precios con la última cotización del tipo elegido: precio en
+  ARS directo y precio en USD convertido con el valor de venta.
+- `ServicioReportes`: inventario valorizado en ARS (generador con validación
+  previa de la cotización), libros con stock bajo el mínimo e histórico de
+  cotizaciones con variación porcentual.
+- Celda de prueba de servicios en una carpeta temporal.
+
 [Ejercicio 03]
 - Creación de `repositories.py` con las interfaces de la cátedra
   (`IRepositorio[T]`, `IRepositorioStock`, `IRepositorioCotizacionDolar`)
